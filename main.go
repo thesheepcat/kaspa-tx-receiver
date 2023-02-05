@@ -28,8 +28,8 @@ func main() {
 	prefix := dagconfig.DevnetParams.Prefix
 
 	// Insert here the result of genkeypair operation
-	myPrivateKey := "39e640b6e94642f00aeee4e10bb3328d7487603092a90844c95fdde2db69ad68"
-	myAddressString := "kaspadev:qp52ukce0tm4a39r59j3r7y65gy7anly03l2ge7dnckmtu7jexn7vyukktmny"
+	myPrivateKey := "09c97007242fb2078c6f78e991f7d43fdcd94ccd21655f54dca87a8d777e3a89"
+	myAddressString := "kaspadev:qrd9frpfnry9p67m88ste9wegcdlnakyvsr8ze2l5sgjhcv5lz3zvgev7p2ww"
 
 	// Some Private / Public keys manipulation
 	myAddress, err := util.DecodeAddress(myAddressString, prefix)
